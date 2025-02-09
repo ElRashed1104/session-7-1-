@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+x = ["satday" , "sunday" , "Monday" , "Tuesday" , "Wednesday " , "Thursday " , "Friday "]
+y = [20, 25, 17, 16, 20]
+
+plt.plot(x, y, marker='o', linestyle='-', color='b')
+plt.title("temperature ")
+plt.xlabel("days of the week")
+plt.ylabel("temperature in degrees Celsius")
+plt.show()
